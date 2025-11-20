@@ -54,28 +54,28 @@ public class CarController2D : MonoBehaviour
         }
 
         // The car moves
-        transform.Translate(Vector3.left * curSpeed * Time.deltaTime);
+        transform.Translate(Vector3.forward * curSpeed * Time.deltaTime);
         daCamera.transform.Translate(Vector3.left * curSpeed * Time.deltaTime);
 
         // The car can be nudged
         if (Input.GetKey(KeyCode.UpArrow) && nudgeY >= -nudgeMaxY)
         {
-            transform.position += Vector3.up * Time.deltaTime * nudgeSpeed;
+            transform.position += Vector3.back * Time.deltaTime * nudgeSpeed;
             nudgeY -= Time.deltaTime * nudgeSpeed;
         }
         if (Input.GetKey(KeyCode.DownArrow) && nudgeY <= nudgeMaxY)
         {
-            transform.position += Vector3.down * Time.deltaTime * nudgeSpeed;
+            transform.position += Vector3.forward * Time.deltaTime * nudgeSpeed;
             nudgeY += Time.deltaTime * nudgeSpeed;
         }
         if (Input.GetKey(KeyCode.LeftArrow) && nudgeX >= -nudgeMaxX)
         {
-            transform.position += Vector3.left * Time.deltaTime * nudgeSpeed;
+            transform.position += Vector3.right * Time.deltaTime * nudgeSpeed;
             nudgeX -= Time.deltaTime * nudgeSpeed;
         }
         if (Input.GetKey(KeyCode.RightArrow) && nudgeX <= nudgeMaxX)
         {
-            transform.position += Vector3.right * Time.deltaTime * nudgeSpeed;
+            transform.position += Vector3.left * Time.deltaTime * nudgeSpeed;
             nudgeX += Time.deltaTime * nudgeSpeed;
         }
     }
