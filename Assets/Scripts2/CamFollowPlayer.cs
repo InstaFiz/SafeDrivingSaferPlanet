@@ -6,7 +6,7 @@ public class CamFollowPlayer : MonoBehaviour
 {
     public GameObject player;
 
-    private Vector3 offset = new Vector3(0, 1, 0);
+    private Vector3 offset = new Vector3(-4, 2, 0);
 
     void Update()
     {
