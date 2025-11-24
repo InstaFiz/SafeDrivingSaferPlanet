@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class CamFollowPlayer : MonoBehaviour
 {
-    public GameObject player;
+    public Transform player;
 
-    private Vector3 offset = new Vector3(-4, 2, 0);
+    private Vector3 offset = new Vector3(0, 2, -6);
 
-    void Update()
+    void LateUpdate()
     {
-        transform.position = player.transform.position + offset;
+        transform.position = player.TransformPoint(offset);
+        transform.LookAt(player);
     }
 }
