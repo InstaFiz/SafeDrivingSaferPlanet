@@ -1737,8 +1737,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.9045168, y: 0.9999998, z: 0.9753982}
+  m_Center: {x: -0.030887457, y: 0, z: 0.01230086}
 --- !u!23 &237073258
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7982,8 +7982,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.9251063, y: 0.9999998, z: 0.9274993}
+  m_Center: {x: -0.030473702, y: 0, z: 0.03625034}
 --- !u!23 &1330294777
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10209,8 +10209,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.2403364, y: 0.9999998, z: 0.9389383}
+  m_Center: {x: -0.120168634, y: 0, z: 0.030531315}
 --- !u!23 &1650405001
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11837,8 +11837,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.1818289, y: 0.9999998, z: 1.2798986}
+  m_Center: {x: -0.1280236, y: 0, z: 0.16697077}
 --- !u!23 &1869339539
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12810,8 +12810,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.91045374, y: 0.9999998, z: 0.96854365}
+  m_Center: {x: 0.005521208, y: 0, z: 0.013269133}
 --- !u!23 &1965432485
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13790,8 +13790,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.9269892, y: 0.9999998, z: 0.95366985}
+  m_Center: {x: -0.03328186, y: 0, z: 0.0044584344}
 --- !u!23 &2073027761
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14033,8 +14033,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.9590624, y: 0.9999998, z: 0.9383267}
+  m_Center: {x: -0.020468814, y: 0, z: 0.0308366}
 --- !u!23 &2098661980
 MeshRenderer:
   m_ObjectHideFlags: 0

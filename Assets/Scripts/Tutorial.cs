@@ -39,7 +39,7 @@ public class Tutorial : MonoBehaviour
                 daText.text = "Keep an eye on your gas! Pick up gas cans around town to fill your gas up.";
                 break;
             case 3:
-                daText.text = "Enough chattering, let's get started. Good luck!";
+                daText.text = "One more thing: please stay on the road. Good luck!";
                 break;
             case 4:
                 finished = true;

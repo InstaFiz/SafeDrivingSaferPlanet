@@ -33,7 +33,7 @@ public class ColliderAndInfo : MonoBehaviour
         else
             daText.text = "Gas supply: " + Mathf.CeilToInt(gasSupply) + "\nPassengers: " + curPassengers + "/" + maxPassengers;
 
-        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S))
         {
             gasSupply -= 10 * Time.deltaTime;
             gasSupply = Mathf.Max(0, gasSupply);
@@ -55,9 +55,9 @@ public class ColliderAndInfo : MonoBehaviour
 
         if (other.gameObject.CompareTag("Blockade"))
         {
-            //Destroy(other.gameObject);
-            //tutorialScript.offroad = true;
-            //tutorialScript.Increment();
+            Destroy(other.gameObject);
+            tutorialScript.offroad = true;
+            tutorialScript.Increment();
         }
 
         if (other.gameObject.CompareTag("Passenger"))
