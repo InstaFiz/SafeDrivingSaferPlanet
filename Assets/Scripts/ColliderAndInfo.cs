@@ -13,6 +13,8 @@ public class ColliderAndInfo : MonoBehaviour
     public GameObject tutorial;
     public Tutorial tutorialScript;
 
+    public ArrowLook arrow;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -53,13 +55,14 @@ public class ColliderAndInfo : MonoBehaviour
 
         if (other.gameObject.CompareTag("Blockade"))
         {
-            Destroy(other.gameObject);
-            tutorialScript.offroad = true;
-            tutorialScript.Increment();
+            //Destroy(other.gameObject);
+            //tutorialScript.offroad = true;
+            //tutorialScript.Increment();
         }
 
         if (other.gameObject.CompareTag("Passenger"))
         {
+            arrow.CollectPassenger(other.transform);
             Destroy(other.gameObject);
             curPassengers++;
         }
